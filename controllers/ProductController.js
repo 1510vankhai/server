@@ -180,7 +180,6 @@ export const CommentProduct = expressAsyncHandler(async (req, res) => {
     }else{
         res.status(400).send({message: 'product not found'})
     }
-
 })
 
 export const RepCommentProduct = expressAsyncHandler(async (req, res) => {
